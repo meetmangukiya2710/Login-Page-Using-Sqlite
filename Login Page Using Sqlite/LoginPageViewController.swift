@@ -93,7 +93,7 @@ class LoginPageViewController: UIViewController {
     }
     
     func design(){
-        emailTextFieldOutlet.layer.borderWidth = 1
+        emailTextFieldOutlet.layer.borderWidth = 2
         emailTextFieldOutlet.layer.cornerRadius = 8
         emailTextFieldOutlet.layer.borderColor = myColor.cgColor
         
