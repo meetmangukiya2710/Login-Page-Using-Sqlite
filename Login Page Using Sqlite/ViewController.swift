@@ -33,16 +33,16 @@ class ViewController: UIViewController {
     
     
     @IBAction func registrationButtonAction(_ sender: Any) {
+        audio()
         let naviget = storyboard?.instantiateViewController(identifier: "RegistraionPageViewController") as! RegistraionPageViewController
         navigationController?.pushViewController(naviget, animated: true)
-        audio()
     }
     
     
     @IBAction func loginButtonAction(_ sender: Any) {
+        audio()
         let navigate = storyboard?.instantiateViewController(identifier: "LoginPageViewController") as! LoginPageViewController
         navigationController?.pushViewController(navigate, animated: true)
-        audio()
     }
     
     func audio() {
