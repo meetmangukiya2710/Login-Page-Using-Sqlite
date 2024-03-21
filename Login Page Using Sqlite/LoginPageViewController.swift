@@ -74,6 +74,7 @@ class LoginPageViewController: UIViewController {
             
             self.navigationController?.pushViewController(navigate, animated: true)
         }))
+        a.addAction(UIAlertAction(title: "Cancel", style: .destructive))
         
         present(a, animated: true)
     }
